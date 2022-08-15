@@ -1,0 +1,17 @@
+# The project is configured to be build using Maven.
+# For this to work appropriately, Maven and JDK needs to be installed on the machine used for the build.
+# Also the MAVEN_HOME and JAVA_HOME environment variable needs to be configured on the system.
+
+# the following maven commands will compile, clean, run tests and package the application.
+
+
+mvn clean
+mvn test
+mvn package 
+
+
+# The jar file 'Calculator-1.0-SNAPSHOT.jar' will be generated in the 'target' folder at the root directory of the application
+# Navigate to the 'target' folder from the command prompt to run the '.jar' file.
+
+# run the command below to run the application.
+java -jar 'Calculator-1.0-SNAPSHOT.jar'
